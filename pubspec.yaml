@@ -1,0 +1,169 @@
+name: abcd
+description: A new Flutter project.
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number is used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+# In Windows, build-name is used as the major, minor, and patch parts
+# of the product and file versions while build-number is used as the build suffix.
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.6 <4.0.0'
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.2
+  otp_text_field: ^1.1.3
+  flutter_otp_text_field: ^1.1.1
+  carousel_slider: ^4.2.1
+  audioplayers: ^5.2.1
+  vibration: ^1.8.4
+  path_provider: ^2.1.2
+  flutter_screenutil: ^5.9.0
+  avatar_glow: ^3.0.1
+
+
+ 
+
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # The "flutter_lints" package below contains a set of recommended lints to
+  # encourage good coding practices. The lint set provided by the package is
+  # activated in the `analysis_options.yaml` file located at the root of your
+  # package. See that file for information about deactivating specific lint
+  # rules and activating additional ones.
+  flutter_lints: ^3.0.1
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  # assets:
+  #   - images/a_dot_burr.jpeg
+  #   - images/a_dot_ham.jpeg
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+   
+  
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
+
+  fonts:
+    - family: SpongeboyBob
+      fonts:
+        - asset: assets/fonts/SpongeboyBob.ttf
+    - family: Jackpot
+      fonts:
+        - asset: assets/fonts/Jackpot.ttf    
+
+
+  assets:
+    - assets/mobilenet_v1_1.0_224.tflite
+    - assets/icons/_ic_apple1.png
+    - assets/icons/_ic_ball.jpg
+    - assets/icons/_ic_cat.jpg
+    - assets/icons/_ic_dog.jpg
+    - assets/icons/_ic_elephant.jpg
+    - assets/icons/_ic_fish.jpg
+    - assets/icons/_ic_grapes.jpg
+    - assets/icons/_ic_hen.jpg
+    - assets/icons/_ic_ice.jpg
+    - assets/icons/_ic_jocker.jpg
+    - assets/icons/_ic_kite.jpg
+    - assets/icons/_ic_lion.png
+    - assets/icons/_ic_monkey.jpg
+    - assets/icons/_ic_nest.jpg
+    - assets/icons/_ic_owl.jpg
+    - assets/icons/_ic_p.jpg
+    - assets/icons/_ic_q.jpg
+    - assets/icons/_ic_r.jpg
+    - assets/icons/_ic_s.jpg
+    - assets/icons/_ic_t.jpg
+    - assets/icons/_ic_u.jpg
+    - assets/icons/_ic_v.jpg
+    - assets/icons/_ic_w.jpg
+    - assets/icons/_ic_x.jpg
+    - assets/icons/_ic_y.jpg
+    - assets/icons/_ic_z.jpg
+    - assets/icons/_ic_moto.jpg
+    - assets/icons/_ic_happy.jpg
+    - assets/icons/_ic_check.png
+    
+    
+    - assets/sounds/incorrect.mp3 
+    - assets/sounds/letsre_view.mp3 
+    - assets/sounds/a.mp3
+    - assets/sounds/b.mp3
+    - assets/sounds/c.mp3
+    - assets/sounds/d.mp3
+    - assets/sounds/e.mp3
+    - assets/sounds/f.mp3
+    - assets/sounds/g.mp3
+    - assets/sounds/h.mp3
+    - assets/sounds/i.mp3
+    - assets/sounds/j.mp3
+    - assets/sounds/k.mp3
+    - assets/sounds/l.mp3
+    - assets/sounds/m.mp3
+    - assets/sounds/n.mp3
+    - assets/sounds/o.mp3
+    - assets/sounds/p.mp3
+    - assets/sounds/q.mp3
+    - assets/sounds/r.mp3
+    - assets/sounds/s.mp3
+    - assets/sounds/t.mp3
+    - assets/sounds/u.mp3
+    - assets/sounds/v.mp3
+    - assets/sounds/w.mp3
+    - assets/sounds/x.mp3
+    - assets/sounds/y.mp3
+    - assets/sounds/z.mp3
+    - assets/sounds/beep.mp3
+    - assets/sounds/correct.mp3
+
+   
